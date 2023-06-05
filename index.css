@@ -1,0 +1,31 @@
+
+#Noramalize Css
+html,body{
+    background-color: black;
+    [padding: 0;
+    ]margin: 0;
+    font-family: Helvetica, Arial,sans-serif;
+
+}
+.container{
+width: 100%;
+max-width: 1242px;
+
+}
+header{
+    background-color: transparent;
+
+}
+.left-cont, .right-cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+.header-brand{
+    width: 100px;
+}
+.nav-item{
+    color: white;
+}
